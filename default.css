@@ -1,3 +1,8 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+    transition: all 1s;
+}
 .token.property{
     color: black;
 }
@@ -7,3 +12,16 @@
 .token.function{
     color: black;
 }
+#code{
+    height: 100vh;
+    overflow: hidden;
+}
+/* #box{
+    width: 50%;
+    height: 100vh;
+    padding: 16px;
+    border: 1px solid red;
+} */
+
+#code.border1 { border:5px solid #999;}
+#code.border2 { border:5px solid #eee;}
